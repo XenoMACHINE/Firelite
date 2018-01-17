@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <testsuites name='FireliteTests.xctest' tests='5' failures='0'>
   <testsuite name='FireliteTests.FireliteTests' tests='5' failures='0'>
-    <testcase classname='FireliteTests.FireliteTests' name='test1' time='0.006'/>
-    <testcase classname='FireliteTests.FireliteTests' name='test2' time='0.001'/>
-    <testcase classname='FireliteTests.FireliteTests' name='test440' time='0.001'/>
+    <testcase classname='FireliteTests.FireliteTests' name='test1' time='0.004'/>
+    <testcase classname='FireliteTests.FireliteTests' name='test2' time='0.000'/>
+    <testcase classname='FireliteTests.FireliteTests' name='test440' time='0.000'/>
     <testcase classname='FireliteTests.FireliteTests' name='testNeg' time='0.000'/>
     <testcase classname='FireliteTests.FireliteTests' name='testZero' time='0.000'/>
   </testsuite>

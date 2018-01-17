@@ -1,6 +1,16 @@
-lane :funky do
- scan(
-   code_coverage: true,
-   open_report: true
- )
+lane :main do
+ #scan(
+ # code_coverage: true,
+ # open_report: true
+ #)
+
+ if git_branch() == "develop"
+   print "OK DEV"
+ elsif
+   deploy
+ end
+end
+
+lane :deploy do
+  print "[!!] Deploy\n"
 end
