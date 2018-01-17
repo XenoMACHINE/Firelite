@@ -5,12 +5,17 @@
     
     
       
-      <testcase classname="fastlane.lanes" name="0: scan" time="24.533928">
+      <testcase classname="fastlane.lanes" name="0: git_branch" time="0.026821">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="1: git_branch" time="0.026042">
+      <testcase classname="fastlane.lanes" name="1: Switch to deploy lane" time="0.001148">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="2: pod_lib_lint" time="52.44992">
         
       </testcase>
     

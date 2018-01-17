@@ -17,9 +17,14 @@ xcode-select --install
 | RubyGems                   | macOS or Linux with Ruby 2.0.0 or above | `sudo gem install fastlane -NV`                                                                                                       |
 
 # Available Actions
-### funky
+### main
 ```
-fastlane funky
+fastlane main
+```
+
+### deploy
+```
+fastlane deploy
 ```
 
 

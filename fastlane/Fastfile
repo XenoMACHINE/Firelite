@@ -1,16 +1,14 @@
 lane :main do
- #scan(
- # code_coverage: true,
- # open_report: true
- #)
+ scan(
+  open_report: true
+ )
 
- if git_branch() == "develop"
-   print "OK DEV"
- elsif
+ if git_branch() == "master"
    deploy
  end
 end
 
 lane :deploy do
-  print "[!!] Deploy\n"
+  pod_lib_lint
+  pod_push
 end
